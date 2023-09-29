@@ -4,5 +4,6 @@ public interface IntList extends Iterable<Integer> {
     void addAll(IntList list);
     void add(int index, int value);
     int remove(int index);
+//    int remove();
     int size();
 }
